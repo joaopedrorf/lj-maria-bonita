@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--cor2);
-    min-height: 38vh;;
+    min-height: 90vh;
 }
 
 header {
@@ -42,8 +42,29 @@ hr {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
 }
 
+h1 {
+    margin-top: -3px;
+}
+
 h1:hover {
     color: var(--cor1);
+    transition: 0.5s;
+}
+
+h2 {
+    margin-top: -25px;  
+}
+
+h2 a {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    text-decoration: none; /* Remove o sublinhado */
+    
+}
+
+h2 a:hover {
+    color: var(--cor4);
     transition: 0.5s;
 }
 
@@ -52,18 +73,8 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-h2 a {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--cor3);
-    text-decoration: none; /* Remove o sublinhado */
-}
-
-h2 a:hover {
-    color: var(--cor4);
-    transition: 0.5s;
+    margin-top: -12px;
+    margin-bottom: -20px;
 }
 
 li {
@@ -77,7 +88,7 @@ li {
     text-align: center;
 }
 
-.whatsapp-button {
+.whatsapp-button, .local-button {
     appearance: none;
     display: inline-block;
     font-family: 'Nunito Sans', sans-serif;
@@ -89,14 +100,16 @@ li {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+    min-width: 280px;
+    margin: -5px;
 }
 
-.whatsapp-button:hover {
+.whatsapp-button:hover, .local-button:hover {
     background-color: var(--cor3); /* Cor mais escura ao passar o mouse */
     transition: scale(1.0); /* Efeito de zoom leve */
 }
 
-.whatsapp-button:active {
+.whatsapp-button:active, .local-button:active {
     background-color: var(--cor4); /* Cor ainda mais escura ao clicar */
     transition: scale(0.95); /* Efeito de clique */
 }
