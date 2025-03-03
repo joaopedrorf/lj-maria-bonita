@@ -1,100 +1,72 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
 :root {
     --cor0: #E1A1FD;
     --cor1: #8B73FF;
-    --cor2: #9F8AA7;
-    --cor3: #29113386;
-    --cor4: #f4f4f4;
-    --cor5: #9183D5;
+    --cor2: #e1a1fd70;
+    --cor3: #29113333;
+    --cor4: #636E88;
 }
 
 body {
-    font-family: 'New Amsterdam', 'Amsterdam four', 'Montserrat', 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--cor4);
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: var(--cor2);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    margin: 30px;
+    border: 30px;
+    padding: 30px;
+    background-color: var(--cor2);
 }
 
 header {
-    background: var(--cor0);
-    color: var(--cor1);
-    padding: 10px;
     text-align: center;
-
+    margin: 60px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    white-space: nowrap;
 }
 
-header > img {
+section > img {
     width: 100px;
     height: 100px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.11);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
     border-radius: 50%;
-    margin-right: 10px;
     vertical-align: middle;
 }
 
-li {
-    background-size: cover;
+hr {
+    border: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--cor3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+
+h1:hover {
+    color: var(--cor1);
+    transition: 0.5s;
+}
+
+ul {
     vertical-align: middle;
-    background-color: var(--cor0); 
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.11);
-    margin-right: 10px;
-    display: inline-block;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-li.tiktok {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 28px;
-}
-
-h1 {
-    font-family: 'Montserrat';
-    margin: 0;
-    font-size: 2em;
-}
-
-nav {
-    columns: 1;
-
-    background: var(--cor0);
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul {
     list-style-type: none;
-    text-align: center;
     padding: 0;
     margin: 0;
 }
 
-nav a {
-    color: var(--cor3);
-    text-decoration: none;
-    text-align: center;
-    margin: 6px;
+
+
+h2 a {
+    font-size: 20px;
     font-weight: bold;
-    font-size: 1em;
+    color: var(--cor4);
+    text-decoration: none; /* Remove o sublinhado */
 }
 
-footer {
-    background: var(--cor0);
-    color: var(--cor1);
-    text-align: center;
-    padding: 10px;
-    height: auto;
-    position: relative;
-    width: 100%;
+li {
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block; 
 }
