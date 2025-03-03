@@ -78,6 +78,10 @@ li {
 }
 
 .whatsapp-button {
+    text-decoration: none; /* Remove o sublinhado */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar no botão */
+    -webkit-appearance: none; /* Remove estilos padrão do navegador */
+    appearance: none;
     display: inline-block;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
