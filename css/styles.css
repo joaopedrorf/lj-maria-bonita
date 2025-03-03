@@ -11,9 +11,6 @@
 }
 
 body {
-    margin: 30px;
-    border: 30px;
-    padding: 30px;
     background-color: var(--cor2);
 }
 
