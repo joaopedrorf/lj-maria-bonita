@@ -1,35 +1,74 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #E1A1FD;
+    --cor1: #8B73FF;
+    --cor2: #9F8AA7;
+    --cor3: #29113386;
+    --cor4: #f4f4f4;
+    --cor5: #9183D5;
+}
+
 body {
     font-family: 'New Amsterdam', 'Amsterdam four', 'Montserrat', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--cor4);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: var(--cor2);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
 header {
-    background: #E1A1FD;
-    color: #fff;
+    background: var(--cor0);
+    color: var(--cor1);
     padding: 10px;
     text-align: center;
+
 }
 
 header > img {
     width: 100px;
     height: 100px;
-    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.11);
     border-radius: 50%;
     margin-right: 10px;
+    vertical-align: middle;
+}
+
+li {
+    background-size: cover;
+    vertical-align: middle;
+    background-color: var(--cor0); 
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.11);
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+li.tiktok {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 28px;
 }
 
 h1 {
-    font-family: 'New Amsterdam', 'Amsterdam four', 'Montserrat', 'Arial', sans-serif;
+    font-family: 'Montserrat';
     margin: 0;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 nav {
-    background: #E1A1FD;
+    columns: 1;
+
+    background: var(--cor0);
     padding: 10px;
     text-align: center;
 }
@@ -42,19 +81,20 @@ nav ul {
 }
 
 nav a {
-    color: #8B73FF;
+    color: var(--cor3);
     text-decoration: none;
     text-align: center;
-    margin: 8px;
+    margin: 6px;
     font-weight: bold;
     font-size: 1em;
 }
 
 footer {
-    background: rgba(177, 170, 170, 0.842);
-    color: #8B73FF;
+    background: var(--cor0);
+    color: var(--cor1);
     text-align: center;
     padding: 10px;
+    height: auto;
     position: relative;
     width: 100%;
 }
