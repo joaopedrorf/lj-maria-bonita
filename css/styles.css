@@ -6,7 +6,7 @@
     --cor0: #E1A1FD;
     --cor1: #8B73FF;
     --cor2: #e1a1fd70;
-    --cor3: #29113333;
+    --cor3: #2911335e;
     --cor4: #636E88;
 }
 
@@ -52,13 +52,16 @@ ul {
     margin: 0;
 }
 
-
-
 h2 a {
     font-size: 20px;
     font-weight: bold;
-    color: var(--cor4);
+    color: var(--cor3);
     text-decoration: none; /* Remove o sublinhado */
+}
+
+h2 a:hover {
+    color: var(--cor4);
+    transition: 0.5s;
 }
 
 li {
