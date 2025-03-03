@@ -12,8 +12,7 @@
 
 body {
     background-color: var(--cor2);
-    min-height: 38vh;
-    min-width: none;
+    min-height: 38vh;;
 }
 
 header {
