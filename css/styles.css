@@ -92,10 +92,10 @@ li {
 
 .whatsapp-button:hover {
     background-color: var(--cor3); /* Cor mais escura ao passar o mouse */
-    transform: scale(1.0); /* Efeito de zoom leve */
+    transition: scale(1.0); /* Efeito de zoom leve */
 }
 
 .whatsapp-button:active {
     background-color: var(--cor4); /* Cor ainda mais escura ao clicar */
-    transform: scale(0.95); /* Efeito de clique */
+    transition: scale(0.95); /* Efeito de clique */
 }
