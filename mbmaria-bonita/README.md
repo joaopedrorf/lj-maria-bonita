@@ -8,8 +8,12 @@ Este projeto é uma loja online chamada **mbmaria.bonita**, dedicada a oferecer 
 mbmaria-bonita
 ├── css
 │   └── styles.css
-├── js
-│   └── scripts.js
+├── imagens
+│   └── icone-facebook.png
+│   └── icone-instagram.png
+│   └── icone-tiktok.png
+│   └── icone-whatsapp.png
+│   └── logo_lj.png
 ├── index.html
 └── README.md
 ```
@@ -19,8 +23,6 @@ mbmaria-bonita
 - **index.html**: A página principal da loja, contendo a estrutura HTML, incluindo cabeçalho, seções de produtos, informações de contato e rodapé.
 
 - **css/styles.css**: Arquivo de estilos CSS que define a aparência visual da loja, incluindo cores, fontes, layout e responsividade.
-
-- **js/scripts.js**: Scripts JavaScript que adicionam interatividade à página, como sliders de produtos, validação de formulários e manipulação de eventos.
 
 ## Como Configurar e Executar o Projeto
 
