@@ -18,6 +18,7 @@ body {
 header {
     text-align: center;
     margin: 60px;
+    margin-bottom: 0px;
     font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
     color: black;
@@ -70,4 +71,31 @@ li {
     padding: 5px;
     margin: 5px;
     display: inline-block; 
+}
+
+.banner {
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: var(--cor1);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.whatsapp-button:hover {
+    background-color: var(--cor3); /* Cor mais escura ao passar o mouse */
+    transform: scale(1.0); /* Efeito de zoom leve */
+}
+
+.whatsapp-button:active {
+    background-color: var(--cor4); /* Cor ainda mais escura ao clicar */
+    transform: scale(0.95); /* Efeito de clique */
 }
